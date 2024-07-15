@@ -1,88 +1,35 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 export default function Blog001() {
   return (
     <section>
         <article>
-          <h2>1. 08-06-2022</h2>
-          <h3>Starting the Blog</h3>
+          <h2 className='font-black '>renderBoundPodcast</h2>
+          <h2>001. Starting the Blog -  07-15-2024 </h2>
+          <h5 className=' font-bold'>by: Eric Polley</h5>
+          <hr className='w-[30vw] mx-auto border-black border' />
           <p>
-            "I envy people who do a little of this, a little of that" -
-            Idiocracy
-          </p>
-          <p>
-            I am currently coding this page. I considered using a blogging
-            platform, but saw this as a coding exercise opportunity. <br />
-            I am currently on my fifth week of Coding. I am starting with HTML,
-            CSS, and JavaScript. I have a plethora of learning sources
-            including:
-          </p>
-          <ul>
-            <li>freeCodeCamp</li>
-            <li>odinProject</li>
-            <li>warriorjs</li>
-            <li>codeWars</li>
-            <li>hackerRank</li>
-          </ul>
-          I am reading a few books as well.
-          <ul>
-            <li>Learn to Code. Get a job. - Gwendolyn Faraday</li>
-            <li>Beginners Step-by-Step Coding Course - Darling Kindersley</li>
-            <li>The Gamers guide to Coding - Gordon McComb</li>
-            <li>
-              Learning Coding Basics in Hours with Javascript - Tech Academy
-            </li>
-            <li>
-              Get Coding! Learn HTML, CSS, and Javscript and build a website,
-              app, and game <br />
-              - Young Rewired State
-            </li>
-          </ul>
-          <p>
-            I have my learning sources, I have a criteria plan, and a curriculum
-            set. <br />
-            Though this will probably evolve over time, my current curriculum
-            is:
-          </p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>Git</li>
-            <li>React.JS</li>
-            <li>Typescript</li>
-            <li>Java</li>
-            <li>Kotlin</li>
-            <li>SQL</li>
-            <li>Python</li>
-          </ul>
-          <p>
-            If you know the industry, you probably know what I am going with
-            that list. <br />
-            My short-term goal current focus is be Web Development. As I dive
-            deeper into the subject I will develope web apps and apps. With a
-            few reputable projects, using each language, I will continue to
-            learning Java and start with back-end development. <br />
-            From here I would like to extend my knowledge of mobile engineering
-            and start learning Kotlin. With a few projects I will continue
-            forward <br />
-            The next step is enforcing and gaining skills for back-end
-            development. With that I will learn SQL, and then Python. <br />
-            This leads me to my long-term end-goal of becoming a Full-Stack
-            developer and UX/UI Mobile Developer
-          </p>
-        </article>
-        <h4>Links</h4>
-        <br />
-        <ul>
-          <li>
-            <a
-              href="https://ericpolley.github.io/Projects_landing_page/"
-              title="My first 5 weeks of Coding"
-              ><p><strong>My first 5 weeks of Coding Projects</strong></p></a
-            >
-          </li>
-        </ul>
+          Welcome to RenderBound.com! I am Eric Polley, an animator and content creator. Whether I wield a stylus or a camera, you can always find me creating something new and exciting. I'm writing this even before the website is up as a fun way to document whether this project goes in the direction I originally intended or takes on a new life of its own.
+          <br /><br />
+My vision is to create a central hub where multiple podcasts converge, each accompanied by its own blog. Additionally, I'll be animating a cartoon featuring clips from these podcasts, blending live-action interviews with animated storytelling. This unique blend of content aims to bring together fans of both mediums, providing a dynamic and engaging experience for everyone.
+<br /><br />
+I've recently met some incredible people who I would love to collaborate with on a podcast. I'm still refining the concept, but I'm leaning towards a show that includes interviews with new guests as well as discussions with a recurring co-host. This could lead to an informative yet entertaining podcast, where we discuss animation and content creation, make jokes, and occasionally bring in guest interviews. I'm excited about the potential to explore different topics, from the intricacies of animation techniques to the challenges and triumphs of the creative process.
+<br /><br />
+The main focus of the podcast will be animation, both 2D and 3D. While I might not be an expert, I've worked in both mediums for several years and have developed a unique perspective that I believe is worth sharing. I plan to dive into various aspects of animation, such as storytelling, character design, and the technical skills required to bring drawings to life. My goal is to make the podcast both educational and entertaining, providing value to listeners who are passionate about animation, whether they are beginners or seasoned professionals.
+<br /><br />
+Alongside the podcast, I'll be writing a blog. Not just to vent about the future, like I'm doing now, but to create informative content related to animation and content creation. This blog will be a place where I share insights, tips, and experiences to help fellow creators on their own journeys. I'll cover a range of topics, from practical advice on improving animation skills to reflections on the creative process and the industry as a whole. By documenting my own experiences and learning from others, I hope to foster a community of like-minded individuals who are as passionate about animation as I am.
+<br /><br />
+In addition to the blog and podcast, I plan to include tutorials and behind-the-scenes looks at my projects. These resources will offer a deeper dive into the techniques and tools I use, providing aspiring animators with valuable knowledge and inspiration. Whether you're looking to improve your craft or just curious about the world of animation, there's something here for everyone.
+<br /><br />
+RenderBound.com is more than just a website; it's a journey into the world of animation and content creation. Join me as I explore new ideas, experiment with different formats, and connect with other creators. Together, we can push the boundaries of what's possible and create something truly special.
+<br /><br />
+Stay tuned for more updates as RenderBound.com comes to life, and join me on this creative adventure! I can't wait to share this journey with you and see where it leads.
+
+<br /><br /><br /><br />Thanks for Reading<br />
+ <Link to="/blog" className=' focus:text-blue-400 text-blue-700 hover:text-blue-300 text-xl '><span>ericpolley.com</span></Link>
+           </p><br /><br /><br /><br /><br /><br /><br /><br />
+           </article>
       </section>
    
   )
