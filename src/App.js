@@ -13,11 +13,9 @@ import Footer from './components/Footer';
 import SoftwarePortfolio from './pages/SoftwarePortfolio';
 import GamePortfolio from './pages/GamePortfolio';
 import AnimationPortfolio from './pages/AnimationPortfolio';
-import Podcast from './pages/MatedPodcast';
 import Mated001 from './pages/Podcasts/mated001';
 import Mated002 from './pages/Podcasts/mated002';
 import Mated003 from './pages/Podcasts/mated003';
-import MatedPodcast from './pages/MatedPodcast';
 import Mated from './pages/MatedPodcast';
 
 
