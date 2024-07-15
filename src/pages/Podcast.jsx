@@ -23,7 +23,7 @@ export default function Podcast() {
          <div 
           className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 hover:text-black text-slate-700 bg-slate-300 overflow-hidden mt-2 text-sm"><Blog041 /></div>
           <div className='mb-2 mt-2'>
-          <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
+          <Link to="/podcast" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'>Click to read more </Link>
 
           </div></div> 
         {/*Card end*/}
