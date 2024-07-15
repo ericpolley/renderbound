@@ -13,8 +13,12 @@ import Footer from './components/Footer';
 import SoftwarePortfolio from './pages/SoftwarePortfolio';
 import GamePortfolio from './pages/GamePortfolio';
 import AnimationPortfolio from './pages/AnimationPortfolio';
-import Podcast from './pages/Podcast';
+import Podcast from './pages/MatedPodcast';
 import Mated001 from './pages/Podcasts/mated001';
+import Mated002 from './pages/Podcasts/mated002';
+import Mated003 from './pages/Podcasts/mated003';
+import MatedPodcast from './pages/MatedPodcast';
+import Mated from './pages/MatedPodcast';
 
 
 
@@ -40,10 +44,11 @@ function App() {
     <Route exact path="/game" element={<GamePortfolio />} />
     <Route exact path="/portfolio" element={<AnimationPortfolio />} />
     <Route exact path="/news" element={<Videos />} />
-    <Route exact path="/podcast" element={<Podcast />} />
+    <Route exact path="/mated" element={<Mated />} />
     <Route exact path="/blog/001" element={<Blog001 />} />
-    <Route exact path="/mated001" element={<Mated001 />} />
-   
+    <Route exact path="mated/001" element={<Mated001 />} />
+    <Route exact path="mated/002" element={<Mated002 />} />
+    <Route exact path="mated/003" element={<Mated003 />} />
     </Routes>
     </div>
     </div>
