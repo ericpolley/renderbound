@@ -17,6 +17,9 @@ import Mated001 from './pages/Podcasts/mated001';
 import Mated002 from './pages/Podcasts/mated002';
 import Mated003 from './pages/Podcasts/mated003';
 import Mated from './pages/MatedPodcast';
+import Mated004 from './pages/Podcasts/mated004';
+import Mated005 from './pages/Podcasts/mated005';
+import Blog002 from './pages/Blogs/Blog002';
 
 
 
@@ -44,9 +47,12 @@ function App() {
     <Route exact path="/news" element={<Videos />} />
     <Route exact path="/mated" element={<Mated />} />
     <Route exact path="/blog/001" element={<Blog001 />} />
+    <Route exact path="/blog/002" element={<Blog002 />} />
     <Route exact path="mated/001" element={<Mated001 />} />
     <Route exact path="mated/002" element={<Mated002 />} />
     <Route exact path="mated/003" element={<Mated003 />} />
+    <Route exact path="mated/004" element={<Mated004 />} />
+    <Route exact path="mated/005" element={<Mated005 />} />
     </Routes>
     </div>
     </div>

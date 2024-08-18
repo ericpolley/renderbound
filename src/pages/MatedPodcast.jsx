@@ -5,6 +5,8 @@ import { useNavigate } from "react-router";
 import Mated001 from "./Podcasts/mated001";
 import Mated002 from './Podcasts/mated002';
 import Mated003 from './Podcasts/mated003';
+import Mated004 from './Podcasts/mated004';
+import Mated005 from './Podcasts/mated005';
 
 export default function Mated() {
   const navigate = useNavigate();
@@ -18,6 +20,32 @@ export default function Mated() {
 
      
      <div className='flex flex-row flex-wrap justify-center'>
+
+{/* CARD */}
+<div onClick={()=>navigate('/mated/005')}
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col 
+      justify-center items-center bg-slate-400 rounded-xl border-slate-500'> 
+         <div 
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 hover:text-black text-slate-700 bg-slate-300 
+          overflow-hidden mt-2 text-sm">
+            <Mated005 /></div>
+          <div className='mb-2 mt-2'>
+          <Link to="/mated" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'>Click to read more </Link>
+          </div></div> 
+        {/*Card end*/}
+
+        {/* CARD */}
+<div onClick={()=>navigate('/mated/004')}
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col 
+      justify-center items-center bg-slate-400 rounded-xl border-slate-500'> 
+         <div 
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 hover:text-black text-slate-700 bg-slate-300 
+          overflow-hidden mt-2 text-sm">
+            <Mated004 /></div>
+          <div className='mb-2 mt-2'>
+          <Link to="/mated" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'>Click to read more </Link>
+          </div></div> 
+        {/*Card end*/}
 
 {/* CARD */}
 <div onClick={()=>navigate('/mated/003')}

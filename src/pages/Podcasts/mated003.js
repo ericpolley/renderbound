@@ -25,7 +25,7 @@ export default function Mated003() {
 
            </p><br /><br /><br /><br />
            
-           <Link to="/blog" className=' focus:text-blue-400 text-blue-700 hover:text-blue-300 text-xl '><span>ericpolley.com</span></Link>
+           <Link to="/mated" className=' focus:text-blue-400 text-blue-700 hover:text-blue-300 text-xl '><span>Back</span></Link>
 
            <br /><br /><br /><br />
            </div>

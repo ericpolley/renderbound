@@ -30,7 +30,7 @@ Stay tuned for more updates as RenderBound.com comes to life, and join me on thi
 <br /><br /><br />
 Check out my podcast "Mated" right here on this site, and don't forget to visit EricPolley.com for my animated shorts. The link is at the bottom of the page.
 <br /><br /><br /><br />Thanks for Reading<br />
- <Link to="/blog" className=' focus:text-blue-400 text-blue-700 hover:text-blue-300 text-xl '><span>ericpolley.com</span></Link>
+ <Link to="/blog" className=' focus:text-blue-400 text-blue-700 hover:text-blue-300 text-xl '><span>Back</span></Link>
            </p><br /><br /><br /><br /><br /><br /><br /><br />
            </article>
       </section>
