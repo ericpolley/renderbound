@@ -10,11 +10,11 @@ export default function Mated001() {
    <p> 
 <br />
 
-<iframe className="shadow-xl mb-4 w-[82vw] h-[280px] md:h-[350px] lg:w-[35vw] lg:h-[32vh] border-8 rounded-xl border-slate-500" width="560" height="235" 
+<iframe className="shadow-xl mb-4 w-[82vw] h-[280px] md:h-[350px] lg:w-[35vw] lg:h-[32vh] border-8 rounded-xl border-orange-500" width="560" height="235" 
  src="https://www.youtube.com/embed/9ZJiukSwzJo?si=fcNMeo07XBKcyFST" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; 
  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
- <iframe className="shadow-xl mb-4 w-[82vw] h-[280px] md:h-[350px] lg:w-[35vw] lg:h-[32vh] border-8 rounded-xl border-slate-500" width="560" height="235" 
+ <iframe className="shadow-xl mb-4 w-[82vw] h-[280px] md:h-[350px] lg:w-[35vw] lg:h-[32vh] border-8 rounded-xl border-orange-500" width="560" height="235" 
  src="https://www.youtube.com/embed/V-sbPD6Ruzg?si=1oZb9hsU0pVKjdaz" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; 
  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
@@ -29,7 +29,7 @@ export default function Mated001() {
 
            </p><br /><br /><br /><br />
            
-           <Link to="/mated" className=' focus:text-blue-400 text-blue-700 hover:text-blue-300 text-xl '><span>Back</span></Link>
+           <Link to="/mated" className=' focus:text-orange-400 text-orange-700 hover:text-orange-300 text-xl '><span>Back</span></Link>
 
            <br /><br /><br /><br />
            </div>

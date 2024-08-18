@@ -83,7 +83,7 @@ Final Thoughts<br />
 As I reflect on the past month, I’m filled with a sense of accomplishment and excitement. While the journey has been challenging, it’s also been incredibly rewarding. I’m proud of the progress I’ve made, and I’m excited to continue working on these projects in the months
           
 <br /><br /><br /><br />Thanks for Reading<br />
-<Link to="/blog" className=' focus:text-blue-400 text-blue-700 hover:text-blue-300 text-xl '><span>Back</span></Link>
+<Link to="/blog" className=' focus:text-orange-400 text-orange-700 hover:text-orange-300 text-xl '><span>Back</span></Link>
            </p><br /><br /><br /><br /><br /><br /><br /><br />
            </article>
       </section>

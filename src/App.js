@@ -34,7 +34,7 @@ function App() {
      
       
       <div className='w-full flex justify-center cursor-default'>
-      <div className='border-8 border-t-4 bg-slate-300 border-black w-[95vw] sm:w-[90vw] rounded-xl p-3 text-center cursor-default'>
+      <div className='border-8 border-t-4 bg-orange-300 border-black w-[95vw] sm:w-[90vw] rounded-xl p-3 text-center cursor-default'>
     <Routes>
     <Route exact path="/" element={<Home />} />
     <Route exact path="/about" element={<About />} />
